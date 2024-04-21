@@ -3311,6 +3311,7 @@ body.is-touch .poptrox-popup .closer {
 
   #header {
     padding: 4.5em 1.5em;
+    height:100vh;
   }
 
   #header h1 br {
@@ -3349,4 +3350,12 @@ body.is-touch .poptrox-popup .closer {
   color: gray;
   font-size: 1rem;
   margin-top: -8px;
+}
+
+/* Screen for a Galaxy Fold*/
+@media screen and (max-width: 280px) {
+
+  #header {
+    height:100%;
+  }
 }
