@@ -2793,7 +2793,7 @@ input[type="button"]:disabled,
 #main {
   margin-left: 30%;
   max-width: 54em;
-  padding: 1em 3em 4em 6em;
+  padding: 3em 3em 4em 6em;
   width: calc(100% - 30%);
 }
 
@@ -3137,7 +3137,7 @@ body.is-touch .poptrox-popup .closer {
   #main {
     margin-left: 30%;
     max-width: none;
-    padding: 1em 3em 3em 3em;
+    padding: 3em 3em 3em 3em;
     width: calc(100% - 30%);
   }
 }
@@ -3222,7 +3222,7 @@ body.is-touch .poptrox-popup .closer {
 
   #main {
     margin: 0;
-    padding: 1em 4em;
+    padding: 3em 4em;
     width: 100%;
   }
 }
@@ -3334,5 +3334,5 @@ body.is-touch .poptrox-popup .closer {
 }
 
 .logo {
-  width: 300px;
+  width: 200px;
 }
