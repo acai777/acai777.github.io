@@ -3338,6 +3338,15 @@ body.is-touch .poptrox-popup .closer {
 }
 
 .architecture {
-	width: 100%;
-	margin-top: 5rem;
+  width: 100%;
+}
+
+.source-form {
+  width: 80%;
+  border: 1px solid black;
+}
+.caption {
+  color: gray;
+  font-size: 1rem;
+  margin-top: -8px;
 }
