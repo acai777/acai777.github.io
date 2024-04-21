@@ -3336,3 +3336,8 @@ body.is-touch .poptrox-popup .closer {
 .logo {
   width: 200px;
 }
+
+.architecture {
+	width: 100%;
+	margin-top: 5rem;
+}
