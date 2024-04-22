@@ -3416,7 +3416,7 @@ body.is-touch .poptrox-popup .closer {
 
 /* Want the first RHS component to take the entire RHS display to start. Adjust display and remove the viewport height option for mobile devices */
 #main > section:first-child {
-  padding-top: 10rem;
+  padding-top: 5rem;
 }
 
 #rhs-vh-fill {
