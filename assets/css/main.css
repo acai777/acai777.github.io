@@ -2751,15 +2751,18 @@ input[type="button"]:disabled,
 
 /* Footer */
 
-#footer .icons, .mobile-icons {
+#footer .icons,
+.mobile-icons {
   margin: 1em 0 0 0;
 }
 
-#footer .icons a, .mobile-icons a {
+#footer .icons a,
+.mobile-icons a {
   color: rgba(255, 255, 255, 0.7);
 }
 
-#footer .icons a:hover, .mobile-icons a:hover {
+#footer .icons a:hover,
+.mobile-icons a:hover {
   color: rgba(255, 255, 255, 1);
 }
 
@@ -3362,27 +3365,27 @@ body.is-touch .poptrox-popup .closer {
 }
 
 .willow-container {
-  display: flex; 
-  gap: 2em; 
+  display: flex;
+  gap: 2em;
   margin-bottom: 2rem;
 }
 
 .header-container {
-  display: flex; 
-  align-items: flex-end; 
-  flex-wrap: wrap; 
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
 .header-item {
-  flex-basis:100%; 
-  margin-bottom:0px;
+  flex-basis: 100%;
+  margin-bottom: 0px;
 }
 
 /* Remove flex of willow-container for mobile screens */
 @media screen and (max-width: 480px) {
   .willow-container {
-    display: block; 
+    display: block;
     margin-bottom: 2rem;
   }
 
@@ -3408,6 +3411,25 @@ body.is-touch .poptrox-popup .closer {
 @media screen and (max-width: 980px) {
   .mobile-icons {
     display: block;
-    
+  }
+}
+
+/* Want the first RHS component to take the entire RHS display to start. Adjust display and remove the viewport height option for mobile devices */
+#main > section:first-child {
+  padding-top: 10rem;
+}
+
+#rhs-vh-fill {
+  height: 85vh;
+}
+
+@media screen and (max-width: 480px) {
+  #rhs-vh-fill {
+    height: 100%;
+    padding-top: 1.5rem;
+  }
+
+  #main > section:first-child {
+    padding-top: 1rem;
   }
 }
