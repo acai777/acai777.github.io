@@ -2794,7 +2794,7 @@ input[type="button"]:disabled,
 #main {
   margin-left: 30%;
   max-width: 100%;
-  padding: 8em 8em 4em 8em;
+  padding: 5em 8em 4em 8em;
   width: calc(100% - 30%);
 }
 
@@ -3393,4 +3393,9 @@ body.is-touch .poptrox-popup .closer {
   .header-item {
     margin-bottom: 1em;
   }
+}
+
+#main > #one {
+  margin-top: 3.5rem;
+  padding-top: 2rem;
 }
