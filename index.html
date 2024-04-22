@@ -34,39 +34,23 @@
     <div id="main">
       <!-- One -->
       <section id="one" style="text-align: center">
-        <a href="https://willow-cdc.github.io/" target="_blank">
-          <img class="logo" src="images/willow-logo.png" alt="Willow Logo" />
-        </a>
-        <header class="major">
-          <h2>
-            Willow is an open-source, self-hosted framework which applies Change
-            Data Capture to update caches in near real-time.
-          </h2>
-        </header>
-        <p class="align-left">
-          Utilizing log-based change data capture, Willow non-invasively
-          monitors changes in a user's PostgreSQL database and reflects those
-          row-level changes in a user's Redis cache. Without requiring in-depth
-          technical knowledge and expertise, data pipelines can be created or
-          deleted using Willow's web user interface, simplifying setup and
-          teardown.
-        </p>
 
-        <figure style="margin-bottom: 1rem">
+        <div class="willow-container">
           <a href="https://willow-cdc.github.io/" target="_blank">
-            <img
-              src="images/source-form.png"
-              class="source-form"
-              alt="Source Form"
-            />
+            <img class="logo" src="images/willow-logo.png" alt="Willow Logo" />
           </a>
-          <figcaption class="caption">Source Form</figcaption>
-        </figure>
+
+          <header class="major header-container">
+            <h2 class="header-item">
+              An open-source, self-hosted framework which updates caches in near real-time.
+            </h2>
+            <a href="https://willow-cdc.github.io/" class="button" target="_blank">Read the Case Study
+            </a>
+          </header>
+        </div>
 
         <p class="align-left">
-          Willow is built upon open-source tools. In particular, a handful of
-          technologies - including Debezium, Apache Kafka, Apache Zookeeper,
-          Kafka Connect, PostgreSQL - was used to create the data pipelines.
+          Willow monitors changes in a user's database and reflects row-level changes in a user's cache. Built upon open-source tools such as Debezium, Apache Kafka, Docker, and PostgreSQL, Willow abstracts away the complexity of setting up and configuring these tools for you.
         </p>
 
         <a href="https://willow-cdc.github.io/" target="_blank">
@@ -79,10 +63,6 @@
             <figcaption class="caption">Architecture</figcaption>
           </figure>
         </a>
-
-        <a href="https://willow-cdc.github.io/" class="button" target="_blank"
-          >Willow Overview</a
-        >
       </section>
 
       <!-- Two -->

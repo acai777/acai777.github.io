@@ -3360,3 +3360,38 @@ body.is-touch .poptrox-popup .closer {
     height: 100%;
   }
 }
+
+.willow-container {
+  display: flex; 
+  gap: 2em; 
+  margin-bottom: 2rem;
+}
+
+.header-container {
+  display: flex; 
+  align-items: flex-end; 
+  flex-wrap: wrap; 
+  justify-content: center;
+}
+
+.header-item {
+  flex-basis:100%; 
+  margin-bottom:0px;
+}
+
+/* Remove flex of willow-container for mobile screens */
+@media screen and (max-width: 480px) {
+  .willow-container {
+    display: block; 
+    margin-bottom: 2rem;
+  }
+
+  .header-container {
+    display: flex;
+  }
+
+  .header-item {
+    margin-bottom: 1em;
+  }
+}
+
