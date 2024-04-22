@@ -2561,7 +2561,7 @@ input[type="submit"]:hover,
 input[type="reset"]:hover,
 input[type="button"]:hover,
 .button:hover {
-  background-color: #7c7955;
+  background-color: rgb(31, 24, 21);
   border-color: gray;
   color: white;
 }
@@ -2570,7 +2570,7 @@ input[type="submit"]:active,
 input[type="reset"]:active,
 input[type="button"]:active,
 .button:active {
-  background-color: #7c7955;
+  background-color: rgb(31, 24, 21);
   border-color: gray;
   color: white;
 }
@@ -2691,7 +2691,7 @@ input[type="button"]:disabled,
   -ms-justify-content: space-between;
   justify-content: space-between;
   /* background-color: #7c7955; */
-  background-color: black;
+  background-color: rgb(31, 24, 21);
   background-attachment: scroll, scroll;
   /* background-image: url("images/overlay.png"), url("../../images/bg.jpg"); */
   background-position: top left, top left;
