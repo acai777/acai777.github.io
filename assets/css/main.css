@@ -2700,7 +2700,7 @@ input[type="button"]:disabled,
   color: rgba(255, 255, 255, 0.5);
   height: 100%;
   left: 0;
-  padding: 8em 3em;
+  padding: 5em 3em;
   position: fixed;
   text-align: center;
   top: 0;
@@ -2794,7 +2794,7 @@ input[type="button"]:disabled,
 #main {
   margin-left: 30%;
   max-width: 100%;
-  padding: 6em 6em 4em 6em;
+  padding: 3em 6em 4em 6em;
   width: calc(100% - 30%);
 }
 
