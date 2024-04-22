@@ -2751,15 +2751,15 @@ input[type="button"]:disabled,
 
 /* Footer */
 
-#footer .icons {
+#footer .icons, .mobile-icons {
   margin: 1em 0 0 0;
 }
 
-#footer .icons a {
+#footer .icons a, .mobile-icons a {
   color: rgba(255, 255, 255, 0.7);
 }
 
-#footer .icons a:hover {
+#footer .icons a:hover, .mobile-icons a:hover {
   color: rgba(255, 255, 255, 1);
 }
 
@@ -3398,4 +3398,16 @@ body.is-touch .poptrox-popup .closer {
 #main > #one {
   margin-top: 3.5rem;
   padding-top: 2rem;
+}
+
+/* LHS icons; want to only display for smaller than 980px screens*/
+.mobile-icons {
+  display: none;
+}
+
+@media screen and (max-width: 980px) {
+  .mobile-icons {
+    display: block;
+    
+  }
 }
