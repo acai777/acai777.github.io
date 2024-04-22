@@ -3423,7 +3423,7 @@ body.is-touch .poptrox-popup .closer {
   height: 85vh;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 980px) {
   #rhs-vh-fill {
     height: 100%;
     padding-top: 1.5rem;
@@ -3433,3 +3433,5 @@ body.is-touch .poptrox-popup .closer {
     padding-top: 1rem;
   }
 }
+/* end */
+
