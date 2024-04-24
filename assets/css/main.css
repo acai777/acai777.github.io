@@ -222,7 +222,7 @@ i {
 }
 
 p {
-  margin: 0 0 2em 0;
+  margin: 0 0 1em 0;
 }
 
 h1,
@@ -3341,7 +3341,7 @@ body.is-touch .poptrox-popup .closer {
 }
 
 .logo {
-  width: 200px;
+  width: 150px;
 }
 
 .architecture {
@@ -3373,7 +3373,7 @@ body.is-touch .poptrox-popup .closer {
 
 .header-container {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   flex-wrap: wrap;
   justify-content: center;
 }
