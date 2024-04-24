@@ -3354,7 +3354,7 @@ body.is-touch .poptrox-popup .closer {
   margin-top: -8px;
 }
 
-/* Screen for a Galaxy Fold*/
+/* Screen for a Galaxy Fold */  
 @media screen and (max-width: 280px) {
   #header {
     height: 100%;
