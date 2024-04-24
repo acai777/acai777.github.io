@@ -3337,7 +3337,7 @@ body.is-touch .poptrox-popup .closer {
 .headerName {
   font-size: 2rem;
   color: rgba(255, 255, 255, 1);
-  /* margin-bottom:1rem; */
+  margin-bottom:1rem;
 }
 
 .logo {
