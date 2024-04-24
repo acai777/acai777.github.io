@@ -3427,7 +3427,6 @@ body.is-touch .poptrox-popup .closer {
 @media screen and (max-width: 980px) {
   #rhs-vh-fill {
     height: 100%;
-    padding-top: 1.5rem;
   }
 
   #main > section:first-child {
