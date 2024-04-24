@@ -3101,7 +3101,15 @@ body.is-touch .poptrox-popup .closer {
   input,
   select,
   textarea {
-    font-size: 12pt;
+    font-size: 14pt;
+  }
+
+  /* Added yourself */
+  #main {
+    margin-left: 30%;
+    max-width: none;
+    padding: 5em 5em 4em 5em;
+    width: calc(100% - 30%);
   }
 }
 
@@ -3337,7 +3345,7 @@ body.is-touch .poptrox-popup .closer {
 .headerName {
   font-size: 2rem;
   color: rgba(255, 255, 255, 1);
-  margin-bottom:1rem;
+  margin-bottom: 1rem;
 }
 
 .logo {
@@ -3437,4 +3445,3 @@ body.is-touch .poptrox-popup .closer {
   }
 }
 /* end */
-
