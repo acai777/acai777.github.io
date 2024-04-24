@@ -3421,7 +3421,7 @@ body.is-touch .poptrox-popup .closer {
 }
 
 #rhs-vh-fill {
-  height: 84vh;
+  height: 100vh;
 }
 
 @media screen and (max-width: 980px) {
