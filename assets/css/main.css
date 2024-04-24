@@ -3381,6 +3381,7 @@ body.is-touch .poptrox-popup .closer {
 .header-item {
   flex-basis: 100%;
   margin-bottom: 0px;
+  text-align: left;
 }
 
 /* Remove flex of willow-container for mobile screens */
@@ -3395,7 +3396,9 @@ body.is-touch .poptrox-popup .closer {
   }
 
   .header-item {
-    margin-bottom: 1em;
+    margin-bottom: 0em;
+    margin-top: 1em;
+    text-align: center;
   }
 }
 
