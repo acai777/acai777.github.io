@@ -3445,3 +3445,67 @@ body.is-touch .poptrox-popup .closer {
   }
 }
 /* end */
+
+/* Added button to scroll on first RHS component. Add transition effect to RHS. Remove transition effect for mobile screens. */
+html {
+  scroll-behavior: smooth;
+}
+
+#scroller {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
+    border-color 0.2s ease-in-out;
+  -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
+    border-color 0.2s ease-in-out;
+  -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
+    border-color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
+    border-color 0.2s ease-in-out;
+  background-color: transparent;
+  border: solid 2px #409935;
+  border-radius: 50%;
+  color: #409935;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 400;
+  height: calc(2.75em + 6px);
+  line-height: 2.75em;
+  min-width: 2em;
+  padding: 0 1em;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  margin-top: 3em;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#scroller:hover {
+  border: solid 2px rgb(42, 188, 22, 0.7);
+  color: rgb(52, 198, 32);
+}
+
+.transition {
+  animation: fadeIn 2.5s;
+}
+
+@media screen and (max-width: 980px) {
+  #scroller {
+    display: none;
+  }
+
+  .transition {
+    animation: none;
+  }
+}
+/* end */
