@@ -3495,7 +3495,7 @@ body.is-touch .poptrox-popup .closer {
 }
 
 @media screen and (max-width: 980px) {
-  #scroller {
+  .scroller {
     display: none;
   }
 
