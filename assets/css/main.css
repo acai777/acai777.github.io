@@ -3447,7 +3447,7 @@ body.is-touch .poptrox-popup .closer {
 /* end */
 
 /* Added button to scroll on first RHS component. Add transition effect to RHS. Remove transition effect for mobile screens. */
-#scroller {
+.scroller {
   -moz-appearance: none;
   -webkit-appearance: none;
   -ms-appearance: none;
@@ -3496,7 +3496,7 @@ body.is-touch .poptrox-popup .closer {
 }
 
 @media screen and (max-width: 980px) {
-  #scroller {
+  .scroller {
     display: none;
   }
 
