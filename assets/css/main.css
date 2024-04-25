@@ -3512,7 +3512,7 @@ body.is-touch .poptrox-popup .closer {
     -ms-animation: none;
   }
 
-  .inner {
+  #header .inner {
     animation: fadeIn 2.5s;
     -webkit-animation: fadeIn 2.5s;
     -moz-animation: fadeIn 2.5s;
