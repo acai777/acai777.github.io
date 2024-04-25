@@ -3522,3 +3522,14 @@ body.is-touch .poptrox-popup .closer {
   }
 }
 /* end */
+
+/* Adjust introduction margin dependent on screen size. Only do it for two screen sizes, as the scroll button dissappears on smaller widths. */
+.scroll-margin-top {
+  margin-top: 10rem;
+}
+
+@media screen and (max-width: 1800px) {
+  .scroll-margin-top {
+    margin-top: 3rem;
+  }
+}
