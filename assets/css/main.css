@@ -3486,8 +3486,9 @@ body.is-touch .poptrox-popup .closer {
 }
 
 .scroller:hover {
-  border: solid 2px rgb(52, 198, 32);
-  color: rgb(52, 198, 32);
+  border: solid 2px gray;
+  color: white;
+  background-color: rgb(31, 24, 21);
 }
 
 .onLoadFadeIn {
