@@ -205,7 +205,6 @@ a {
 }
 
 a:hover {
-  border-bottom-color: transparent;
   color: rgb(52, 198, 32);
   text-decoration: none;
 }
@@ -3486,8 +3485,8 @@ body.is-touch .poptrox-popup .closer {
   }
 }
 
-#scroller:hover {
-  border: solid 2px rgb(42, 188, 22, 0.7);
+.scroller:hover {
+  border: solid 2px rgb(52, 198, 32);
   color: rgb(52, 198, 32);
 }
 
@@ -3496,7 +3495,7 @@ body.is-touch .poptrox-popup .closer {
 }
 
 @media screen and (max-width: 980px) {
-  .scroller {
+  #scroller {
     display: none;
   }
 
