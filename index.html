@@ -85,7 +85,7 @@
         </ul>
 
         <div class="align-center">
-          <a href="#one" class="icon solid solo fa-arrow-down scrolly" id="scroller"></a>
+          <a class="icon solid solo fa-arrow-down scrolly" id="scroller"></a>
         </div>
 
       </section>
@@ -217,6 +217,12 @@
     </footer>
 
     <!-- Scripts -->
+    <script>
+      document.getElementById('scroller').addEventListener('click', function() {
+        document.getElementById('one').scrollIntoView({behavior: "smooth"});
+      });
+    </script>
+
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/jquery.poptrox.min.js"></script>
     <script src="assets/js/browser.min.js"></script>
