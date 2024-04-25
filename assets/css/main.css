@@ -3492,6 +3492,10 @@ body.is-touch .poptrox-popup .closer {
 
 .onLoadFadeIn {
   animation: fadeIn 2.5s;
+  -webkit-animation: fadeIn 2.5s;
+  -moz-animation: fadeIn 2.5s;
+  -o-animation: fadeIn 2.5s;
+  -ms-animation: fadeIn 2.5s;
 }
 
 @media screen and (max-width: 980px) {
@@ -3501,10 +3505,18 @@ body.is-touch .poptrox-popup .closer {
 
   .onLoadFadeIn {
     animation: none;
+    -webkit-animation: none;
+    -moz-animation: none;
+    -o-animation: none;
+    -ms-animation: none;
   }
 
   .inner {
     animation: fadeIn 2.5s;
+    -webkit-animation: fadeIn 2.5s;
+    -moz-animation: fadeIn 2.5s;
+    -o-animation: fadeIn 2.5s;
+    -ms-animation: fadeIn 2.5s;
   }
 }
 /* end */
