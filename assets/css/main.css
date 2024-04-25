@@ -3430,9 +3430,10 @@ body.is-touch .poptrox-popup .closer {
   padding-top: 5rem;
 }
 
-#rhs-vh-fill {
-  height: calc(100vh - 9em);
-}
+/* #rhs-vh-fill {
+  height: 100%; default
+  height: calc(100vh - 9em); previous amount
+} */
 
 @media screen and (max-width: 980px) {
   #rhs-vh-fill {
