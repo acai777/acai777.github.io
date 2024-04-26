@@ -207,6 +207,7 @@ a {
 a:hover {
   color: rgb(31, 24, 21);
   text-decoration: none;
+  border-bottom: none;
 }
 
 strong,
