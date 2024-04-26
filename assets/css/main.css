@@ -207,6 +207,9 @@ a {
 a:hover {
   color: rgb(31, 24, 21);
   text-decoration: none;
+}
+
+.text-hover:hover {
   border-bottom: none;
 }
 
