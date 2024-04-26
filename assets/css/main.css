@@ -397,6 +397,7 @@ pre code {
   flex-wrap: wrap;
   box-sizing: border-box;
   align-items: stretch;
+  justify-content: space-evenly;
 }
 
 .row > * {
