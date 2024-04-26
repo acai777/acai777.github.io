@@ -2240,10 +2240,18 @@ input[type="radio"] + label:before {
 }
 
 .avatar {
-  width: 200px;
+  width: 225px;
+  max-width: 100%;
   border-radius: 50%;
   border: 1px solid white;
 }
+
+@media screen and (max-width: 1280px) {
+  .avatar {
+    width: 200px;
+  }
+}
+
 
 /* List */
 
