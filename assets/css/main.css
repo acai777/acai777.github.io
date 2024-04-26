@@ -3430,10 +3430,9 @@ body.is-touch .poptrox-popup .closer {
   padding-top: 5rem;
 }
 
-/* #rhs-vh-fill {
-  height: 100%; default
-  height: calc(100vh - 9em); previous amount
-} */
+#rhs-vh-fill {
+  min-height: calc(100vh - 9em);
+}
 
 @media screen and (max-width: 980px) {
   #rhs-vh-fill {
@@ -3523,13 +3522,6 @@ body.is-touch .poptrox-popup .closer {
 }
 /* end */
 
-/* Adjust introduction margin dependent on screen size. Only do it for two screen sizes, as the scroll button dissappears on smaller widths. */
 .scroll-margin-top {
-  margin-top: 10rem;
-}
-
-@media screen and (max-width: 1800px) {
-  .scroll-margin-top {
-    margin-top: 3rem;
-  }
+  margin-top: 5rem;
 }
