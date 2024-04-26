@@ -2700,7 +2700,7 @@ input[type="button"]:disabled,
   color: rgba(255, 255, 255, 0.5);
   height: 100%;
   left: 0;
-  padding: 8em 3em;
+  padding: 10em 3em;
   position: fixed;
   text-align: center;
   top: 0;
@@ -2797,7 +2797,7 @@ input[type="button"]:disabled,
 #main {
   margin-left: 30%;
   max-width: 100%;
-  padding: 5em 8em 4em 8em;
+  padding: 10em 8em 4em 8em;
   width: calc(100% - 30%);
 }
 
@@ -3107,7 +3107,7 @@ body.is-touch .poptrox-popup .closer {
   #main {
     margin-left: 30%;
     max-width: none;
-    padding: 5em 5em 4em 5em;
+    padding: 10em 5em 4em 5em;
     width: calc(100% - 30%);
   }
 }
@@ -3149,7 +3149,7 @@ body.is-touch .poptrox-popup .closer {
   #main {
     margin-left: 30%;
     max-width: none;
-    padding: 4em 3em 3em 3em;
+    padding: 5em 3em 3em 3em;
     width: calc(100% - 30%);
   }
 }
@@ -3426,21 +3426,13 @@ body.is-touch .poptrox-popup .closer {
 }
 
 /* Want the first RHS component to take the entire RHS display to start. Adjust display and remove the viewport height option for mobile devices */
-#main > section:first-child {
-  padding-top: 5rem;
-}
-
 #rhs-vh-fill {
   min-height: calc(100vh - 9em);
 }
 
 @media screen and (max-width: 980px) {
   #rhs-vh-fill {
-    height: 100%;
-  }
-
-  #main > section:first-child {
-    padding-top: 1rem;
+    min-height: 100%;
   }
 }
 /* end */
