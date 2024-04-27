@@ -296,6 +296,12 @@
           document.getElementById("one").scrollIntoView({ behavior: "smooth" });
         });
 
+      document
+        .getElementById("appear-on-480px")
+        .addEventListener("click", function () {
+          document.getElementById("rhs-vh-fill").scrollIntoView({ behavior: "smooth" });
+        });
+
       function loadButton() {
         if (window.innerWidth <= 480) {
           document.getElementById("appear-on-480px").style.display = "block";
