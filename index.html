@@ -87,7 +87,7 @@
       </div>
 
       <div class="align-center" id="appear-on-480px">
-        <a class="icon solid solo fa-arrow-down scroller"></a>
+        <a class="icon solid solo fa-arrow-down left-scroller"></a>
       </div>
     </header>
 
@@ -299,7 +299,7 @@
       document
         .getElementById("appear-on-480px")
         .addEventListener("click", function () {
-          document.getElementById("rhs-vh-fill").scrollIntoView({ behavior: "smooth" });
+          document.getElementById("main").scrollIntoView({ behavior: "smooth" });
         });
 
       function loadButton() {
