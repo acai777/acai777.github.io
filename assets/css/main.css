@@ -3504,8 +3504,13 @@ body.is-touch .poptrox-popup .closer {
   -ms-animation: fadeIn 2.5s;
 }
 
+/* ensure LHS arrow animation only appears on mobile */ 
+#appear-on-480px {
+  display: none;
+}
+
 @media screen and (max-width: 980px) {
-  .scroller {
+  .disappear-on-980px {
     display: none;
   }
 
