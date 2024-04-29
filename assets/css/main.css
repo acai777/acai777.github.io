@@ -2241,7 +2241,7 @@ input[type="radio"] + label:before {
 }
 
 .avatar {
-  width: 225px;
+  width: 250px;
   max-width: 100%;
   border-radius: 50%;
   border: 1px solid white;
@@ -3355,7 +3355,7 @@ body.is-touch .poptrox-popup .closer {
 }
 
 .headerName {
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: rgba(255, 255, 255, 1);
   margin-bottom: 1rem;
 }
